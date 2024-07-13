@@ -1,0 +1,17 @@
+{
+  "name": "basic-node-backend",
+  "version": "1.0.0",
+  "description": "This is complete node.js backend with deployment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Rahul BK",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
