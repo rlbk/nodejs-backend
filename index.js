@@ -1,6 +1,7 @@
 const express = require("express");
+const envConfig = require("./config/envConfig");
 const app = express();
-const port = 8000;
+const port = envConfig.port;
 
 app.get("/", (req, res) => {
   res.send("Hello Nodejs developer.");
