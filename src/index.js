@@ -1,5 +1,6 @@
-const express = require("express");
-const envConfig = require("./config/envConfig");
+import express from "express";
+import envConfig from "./config/envConfig.js";
+
 const app = express();
 const port = envConfig.port;
 
